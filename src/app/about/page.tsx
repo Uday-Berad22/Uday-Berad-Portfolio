@@ -6,7 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { Briefcase, GraduationCap } from "lucide-react";
 
-import hero from "@/public/hero.jpg";
+import hero from "@/public/Uday_Image.jpg"; // Update this path
+
 import {
   education,
   experiences,
@@ -67,7 +68,8 @@ const AboutPage = () => {
           About Me
         </h1>
         <p className="text-2xl text-orange-700 dark:text-orange-300">
-          Passionate Developer | Creative Problem Solver | Tech Enthusiast
+          Competitive Programmer| Passionate Developer | Creative Problem Solver
+          | Tech Enthusiast | Software Engineer
         </p>
       </motion.div>
 
@@ -87,17 +89,17 @@ const AboutPage = () => {
             >
               <Image
                 src={hero}
-                alt="Prathamesh Chougale"
+                alt="Uday Berad"
                 width={192}
                 height={192}
                 className="object-cover"
               />
             </motion.div>
             <h2 className="text-3xl font-bold text-center mb-2 text-orange-600 dark:text-orange-400">
-              Prathamesh Chougale
+              Uday Berad
             </h2>
             <p className="text-xl text-center text-orange-500 dark:text-orange-300 mb-4">
-              Full Stack Developer
+              Competitive Programmer | Problem Solver | Full Stack Developer
             </p>
             <div className="flex justify-center space-x-4 mb-6">
               {socialLinks.map((link, index) => (
@@ -118,10 +120,15 @@ const AboutPage = () => {
               ))}
             </div>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Hello! I&#39;m Prathamesh Chougale, a passionate full-stack
-              developer with over 5 years of experience in crafting elegant
-              solutions to complex problems. I thrive on challenges and am
-              constantly exploring new technologies to enhance my skill set.
+              Hello! I&#39;m Uday Berad, I am interested in Web & App
+              Development, Competitive Programming, learning New Programming
+              Languages,Techstacks, & New Technologies and seeking exciting
+              opportunities related to the same. I am also an Open-Source
+              enthusiast. The skills that I have attained from the dynamic
+              environment and competitive university life define me, and I am
+              looking forward to implementing and polishing them in any
+              opportunity that I receive. Feel free to go through my profile and
+              approach me if you need any help, will be glad to help you...
             </p>
           </div>
         </motion.div>

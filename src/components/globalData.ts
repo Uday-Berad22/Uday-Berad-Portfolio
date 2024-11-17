@@ -1,41 +1,77 @@
 import { MobileIcon } from "@radix-ui/react-icons";
-import { Briefcase, Code, Github, Home, Linkedin, Package, Twitter, Users } from "lucide-react";
+import {
+  Briefcase,
+  Code,
+  Github,
+  Home,
+  Linkedin,
+  Package,
+  Twitter,
+  Users,
+} from "lucide-react";
 
 // Sidebar Data
 export const routes = [
-    {
-      name: "Home",
-      href: "/",
-      icon: Home,
-    },
-    {
-      name: "About",
-      href: "/about",
-      icon: Users,
-    },
-    {
-      name: "Projects",
-      href: "/projects",
-      icon: Package,
-    },
-    {
-      name: "Contact",
-      href: "/contact",
-      icon: MobileIcon,
-    },
+  {
+    name: "Home",
+    href: "/",
+    icon: Home,
+  },
+  {
+    name: "About",
+    href: "/about",
+    icon: Users,
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+    icon: Package,
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+    icon: MobileIcon,
+  },
 ];
 
 // Home Data
+
 export const achievements = [
   {
-    title: "Smart India Hackathon Winner",
+    title: "Informatica Infathon 4.0 Winner",
     description:
-      "Awarded for developing a real-time traffic management system using IoT and machine learning technologies.",
+      "Won first place in the Informatica Infathon 4.0 hackathon for exceptional problem-solving and project development.",
   },
   {
-    title: "Google Summer of Code Mentor",
+    title: "CodeChef 4-Star Rating",
     description:
-      "Mentored students from around the world in open-source projects and helped them gain practical experience.",
+      "Achieved a 4-star rating on CodeChef for consistent performance and problem-solving skills in competitive programming.With Rating 1916+",
+  },
+  {
+    title: "LeetCode Knight Badge",
+    description:
+      "Earned the prestigious Knight badge on LeetCode, being in the top 3% with a rating of 1950+.",
+  },
+  {
+    title: "2000+ DSA Problems Solved",
+    description:
+      "Solved over 2000 Data Structures and Algorithms problems on various platforms, showcasing strong problem-solving skills.Platforms include Codeforces, CodeChef, LeetCode, and GeeksforGeeks.",
+  },
+  {
+    title: "ICPC Preliminary Contest 2023 - Rank 444",
+    description:
+      "Ranked 444 out of 2300+ participants in the ICPC Preliminary Contest 2023, showcasing strong competitive programming skills.",
+  },
+
+  {
+    title: "Google Code Jam 2023 - Farewell Round Rank 2403",
+    description:
+      "Ranked 2403 out of 12000+ participants in the Google Code Jam Farewell Round 2023, reflecting solid problem-solving abilities.",
+  },
+  {
+    title: "Meta Hacker Cup 2023 - Rank 3618",
+    description:
+      "Secured a rank of 3618 out of 12000+ participants in the Meta Hacker Cup 2023, demonstrating excellence in algorithmic problem-solving.",
   },
   {
     title: "Hacktoberfest Contributor",
@@ -45,131 +81,286 @@ export const achievements = [
 ];
 
 // Projects Data
+// Projects Data
 export const projects = [
   {
     id: "1",
-    title: "E-commerce Platform",
+    title: "Swaad-link",
     description:
-      "A full-stack e-commerce solution with advanced features like real-time inventory management and AI-powered product recommendations.",
-    technologies: ["Next.js", "Node.js", "MongoDB", "Stripe", "TensorFlow"],
-    link: "https://prathameshchougale.me",
-    github: "https://github.com/Prathamesh-chougale-17",
+      "Developed Swaadlink, a full-stack web app connecting users with chefs for personalized home-cooked meals and events. Implemented a real-time booking system and designed responsive chef profiles to enhance user experience. Integrated secure authentication and role-based access control, ensuring platform security and user trust.",
+    technologies: [
+      "Real-time Systems",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "Node.js",
+      "Clerk",
+      "Vercel",
+    ],
+    link: "https://swaad-link.vercel.app/",
+    github: "https://github.com/Uday-Berad22/SwaadLink",
     icon: Briefcase,
-    categories: ["Web Development", "React"],
+    categories: [
+      "Web Development",
+      "Security",
+      "Real-time Systems",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "Node.js",
+      "Clerk",
+      "Vercel",
+    ],
   },
   {
     id: "2",
-    title: "Task Management App",
+    title: "Office-Space",
     description:
-    "A React-based task manager with drag-and-drop functionality, team collaboration features, and integration with popular productivity tools.",
+      "Developing Office-Space, an office parking management and workplace issue tracking app, optimizing parking allocation based on employee schedules and commute data. Implementing a carpooling feature, real-time parking notifications.",
     technologies: [
-      "React",
-      "Redux",
-      "Firebase",
-      "Drag-n-Drop API",
-      "Slack API",
+      "Parking Management",
+      "Real-time Notifications",
+      "Web Development",
+      "Real-time Systems",
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "cron-job",
+      "clerk",
+      "vercel",
+      "github-actions",
+      "Blockchain",
+      "Carpooling",
+      "Booking-System",
     ],
-    link: "https://prathameshchougale.me",
-    github: "https://github.com/Prathamesh-chougale-17",
-    icon: Code,
-    categories: ["Mobile Development", "Flutter"],
+    link: "https://office-space-sync.vercel.app/",
+    github: "https://github.com/Uday-Berad22/Office-Space",
+    icon: Briefcase,
+    categories: [
+      "Real-time Systems",
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "cron-job",
+      "clerk",
+      "vercel",
+      "github-actions",
+      "Blockchain",
+      "Carpooling",
+      "Booking-System",
+    ],
   },
   {
     id: "3",
-    title: "Weather Dashboard",
+    title: "ShareIt",
     description:
-    "An interactive weather app using React and external APIs for real-time data, featuring location-based forecasts and severe weather alerts.",
-    technologies: ["React", "D3.js", "OpenWeatherMap API", "Geolocation API"],
-    link: "https://prathameshchougale.me",
-    github: "https://github.com/Prathamesh-chougale-17",
+      "Built a Full-Stack Web application to enable users to upload a file up to 500 MB and share it with friends via a unique link or mail it. Implemented a REST API for mailing functionality, and made a Task Scheduler, to remove files from the server and database after 24 hours to prevent overload.",
+    technologies: [
+      "Backend",
+      "File Sharing",
+      "HTML",
+      "CSS",
+      "JS",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Nodemailer",
+      "Cron-Job",
+      "Multer",
+      "EJS",
+      "Bootstrap",
+    ],
+    link: "https://share-it-front-end-html.vercel.app/",
+    github: "https://github.com/Uday-Berad22/ShareIt_FrontEnd-html",
     icon: Briefcase,
-    categories: ["Artificial Intelligence", "Python"],
+    categories: [
+      "Web Development",
+      "Backend",
+      "File Sharing",
+      "HTML",
+      "CSS",
+      "JS",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Nodemailer",
+      "Cron-Job",
+      "Multer",
+      "EJS",
+      "Bootstrap",
+    ],
   },
   {
     id: "4",
-    title: "Portfolio Website",
+    title: "Agrorent",
     description:
-      "A personal portfolio site built with Next.js and Tailwind CSS, showcasing my projects, skills, and contact information.",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
-    link: "https://prathameshchougale.me",
-    github: "https://github.com/Prathamesh-chougale-17",
-    icon: Code,
-    categories: ["Web Development", "Node.js"],
+      "Agrorent is an online platform that connects farmers with agricultural equipment owners, allowing them to rent tools and machinery for farming. I contributed to backend development, integrated payment systems, and worked on real-time booking functionalities to improve the user experience and make equipment rentals more accessible to farmers.",
+    technologies: [
+      "Backend Development",
+      "Payment Gateway",
+      "Real-time Systems",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "JWT",
+    ],
+    link: "https://agrorent-example.com/",
+    github: "https://github.com/Uday-Berad22/Agrorent",
+    icon: Briefcase,
+    categories: [
+      "Web Development",
+      "Backend Development",
+      "Real-time Systems",
+      "Payment Gateway",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+    ],
   },
   {
     id: "5",
-    title: "Chat Application",
+    title: "HealthVault",
     description:
-      "A real-time chat app with end-to-end encryption, user authentication, and message history persistence using WebSockets and MongoDB.",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "JWT"],
-    link: "https://prathameshchougale.me",
-    github: "https://github.com/Prathamesh-chougale-17",
+      "HealthVault is a health management platform that helps users manage medical records, appointments, and prescriptions securely. I worked on building core features like appointment scheduling, medical history management, and user authentication using secure protocols to protect sensitive health data.",
+    technologies: [
+      "Web Development",
+      "Security",
+      "MongoDB",
+      "JWT",
+      "Next.js",
+      "Gemini-AI-API",
+      "Chatbot",
+    ],
+    link: "https://medi-assist-eta.vercel.app/",
+    github: "https://github.com/Uday-Berad22/MediAssist",
     icon: Briefcase,
-    categories: ["Mobile Development", "React Native"],
+    categories: [],
+  },
+  {
+    id: "6",
+    title: "Daily Expense Tracker",
+    description:
+      "The Daily Expense Tracker app helps users track their spending, categorize expenses, and set financial goals. I worked on both frontend and backend development, implementing user-friendly interfaces for expense categorization, reports generation, and financial analytics.",
+    technologies: [],
+    link: "https://daily-expense-tracker-example.com/",
+    github: "https://github.com/Uday-Berad22/Daily-Expense-Tracker",
+    icon: Briefcase,
+    categories: [],
   },
 ];
 
-// About Data
 export const skills = [
+  "DSA",
+  "Algorithms",
+  "Competitive Programming",
+  "C++",
+  "Java",
+  "Linux",
+  "Computer Networks",
+  "DBMS",
+  "Web Development",
+  "OOPS",
+  "Operating Systems",
+  "HTML",
+  "CSS",
   "React",
   "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
   "Tailwind CSS",
-  "Framer Motion",
   "Git",
-  "AWS",
-  "Docker",
+  "Github",
+  "Flask",
+  "JavaScript",
   "Python",
+  "SQL",
+  "PostgreSQL",
   "MongoDB",
+  "Docker",
+  "Milvus",
+  "LLM",
+  "LLAMA",
+  "RAG",
+  "BERT",
+  "Machine Learning",
+  "Log Analysis",
 ];
 
 export const experiences = [
   {
-    company: "Tech Innovators",
-    role: "Senior Full Stack Developer",
-    period: "2020 - Present",
+    company: "Commvault",
+    role: "Intern",
+    period: "April 2024 - Present",
     description:
-      "Leading development of scalable web applications using cutting-edge technologies.",
+      "I worked on log analysis for CVFS logs, where I contributed to optimizing the parsing of large exception blocks, reducing log file sizes, and enhancing processing efficiency. This experience exposed me to real-world challenges, honing my problem-solving skills and deepening my understanding of scalable log analysis ,linux systems and distributed systems. I also had the opportunity to learn from industry experts, expand my technical knowledge, and grow as a software engineer, especially in cloud technologies and large-scale system deployment.",
   },
   {
-    company: "WebCraft Solutions",
-    role: "Frontend Developer",
-    period: "2018 - 2020",
+    company: "CSFORALL",
+    role: "Teaching Assitant",
+    period: "Feb 2024 - April 2024",
     description:
-      "Developed responsive and interactive user interfaces for various client projects.",
+      "As a Teaching Assistant at CS FOR ALL from February to April 2024, I supported a cohort of over 500 students in mastering Data Structures, Algorithms, and programming concepts. I assisted in organizing and conducting contests, providing educational support to more than 200 students by addressing their doubts and helping them navigate challenging topics. This role allowed me to collaborate with a passionate team of educators, enhancing my mentorship and communication skills. Additionally, I contributed to creating learning resources that simplified complex technical concepts, and developed a deeper appreciation for inclusive educational practices in computer science.",
   },
   {
-    company: "Digital Dynamics",
-    role: "Junior Developer",
-    period: "2016 - 2018",
+    company: "BNY Mellon",
+    role: "Career Catalyst Mentee",
+    period: "March 2024 - March 2024",
     description:
-      "Assisted in the development of web applications and gained expertise in frontend technologies.",
+      "As a Career Catalyst Mentee at BNY Mellon, I had the opportunity to gain valuable insights into the workings of the IT industry, learning about the latest technologies, project management practices, and corporate culture. During this mentorship, I collaborated with industry professionals, honing my teamwork and communication skills while gaining hands-on experience in the fast-paced environment of a global financial institution. I was exposed to real-world challenges, which helped me better understand work ethics, the importance of innovation, and the role of IT in shaping business strategies. This experience greatly expanded my technical knowledge and provided me with a solid foundation to excel in my career.",
+  },
+  {
+    company: "GirlScript Summer of Code",
+    role: "Open Source Contributor ",
+    period: "May 2023 - Jul 2023",
+    description:
+      "As an Open Source Contributor at GirlScript Summer of Code, I had the opportunity to collaborate with a diverse and talented group of developers, contributing to meaningful open-source projects. This experience allowed me to enhance my coding skills, work with various technologies, and learn best practices for contributing to large-scale projects. I actively participated in the development and improvement of codebases, while also gaining a deeper understanding of version control, collaboration tools, and the open-source community. Additionally, it gave me valuable exposure to the intricacies of project management, code reviews, and maintaining high-quality standards, all while contributing to causes that foster diversity and inclusivity in tech.",
+  },
+  {
+    company: "Newton School Coding Club, PCCOE",
+    role: "Problem Setter ",
+    period: "Jan 2023 - Jun 2023",
+    description:
+      "As a Problem Setter at the Newton School Coding Club, PCCOE, I was responsible for designing and curating challenging and engaging coding problems for competitive programming contests. This role helped me enhance my problem-solving abilities, sharpen my understanding of algorithms and data structures, and improve my ability to think critically under constraints. I worked closely with other team members to ensure that the problems were of varying difficulty levels, tested key concepts, and were aligned with the goals of the coding club. Additionally, I gained valuable experience in reviewing and optimizing problems, providing feedback, and learning how to create fair and balanced assessments for participants. This role not only strengthened my technical expertise but also improved my communication and collaboration skills in a team environment",
   },
 ];
 
 export const education = [
   {
-    degree: "BSc in Computer Science",
-    school: "Tech University",
-    period: "2012 - 2016",
-    description:
-      "Focused on software engineering, algorithms, and data structures.",
+    degree: "Bachelor of Technology",
+    school: "Pimpri Chinchwad College of Engineering,Pune",
+    period: "2021 - 2025",
+    description: "",
   },
   {
-    degree: "Full Stack Web Development Bootcamp",
-    school: "CodeCamp Academy",
-    period: "2016",
-    description:
-      "Intensive 12-week program covering modern web technologies and best practices.",
+    degree: "HSC",
+    school:
+      "Ahmednagar's Education Society's New arts, Commerce and Science College, Ahmednagar",
+    period: "2021",
+    description: "",
+  },
+  {
+    degree: "SSC",
+    school:
+      "Ahmednagar's Education Society's New arts, Commerce and Science College, Ahmednagar",
+    period: "2019",
+    description: "",
   },
 ];
 
 export const socialLinks = [
-  { name: "GitHub", icon: Github, url: "https://github.com/Prathamesh-chougale-17" },
-  { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/prathamesh-chougale/" },
-  { name: "Twitter", icon: Twitter, url: "https://x.com/Prathamesh_7717" },
+  { name: "GitHub", icon: Github, url: "https://github.com/Uday-Berad22" },
+  {
+    name: "LinkedIn",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/uday-berad-108661238",
+  },
+  { name: "Twitter", icon: Twitter, url: "https://x.com/uday_berad19036" },
 ];
 
 // Terminal Data
@@ -181,3 +372,8 @@ export const terminalSteps = [
   "git remote add intern @<company name>",
   "git push -u intern life",
 ];
+// Profile Photo Data
+export const profilePhoto = {
+  src: "https://example.com/path-to-your-photo.jpg",
+  alt: "Uday Berad",
+};
