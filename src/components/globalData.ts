@@ -1,7 +1,6 @@
 import { MobileIcon } from "@radix-ui/react-icons";
 import {
   Briefcase,
-  Code,
   Github,
   Home,
   Linkedin,
